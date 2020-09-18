@@ -141,7 +141,7 @@ It was:
 ```php
 use Orchid\Screen\Layout;
 
-Layout::row([
+Layout::rows([
      // ...
 ]);
 ```
@@ -150,7 +150,7 @@ Became:
 ```php
 use Orchid\Support\Facades\Layout;
 
-Layout::row([
+Layout::rows([
      // ...
 ]);
 ```
